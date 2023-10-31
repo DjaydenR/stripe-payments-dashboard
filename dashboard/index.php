@@ -172,7 +172,7 @@ $payments = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <a class="logout-button" href="../logout.php">Click here to logout</a>
     </div>
     <br><br>
-    <h3 style="text-align: center;">Alle payments:</h3>
+    <h3 style="text-align: center;">All payments:</h3>
     <?php
         echo "<div class='payments'>";
         foreach ($payments as $payment) {
