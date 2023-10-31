@@ -158,11 +158,11 @@ $payments = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <h1>DR IT Payments Dashboard</h1>
         <form method="post">
             <div class="form-group">
-                <label for="amount">Bedrag:</label>
+                <label for="amount">Amount of payment:</label>
                 <input type="text" id="amount" name="amount">
             </div>
             <div class="form-group">
-                <label for="amount">Naam van betaling:</label>
+                <label for="amount">Name of payment:</label>
                 <input type="text" id="paymentname" name="paymentname">
             </div>
             <div class="form-group">
