@@ -2,8 +2,6 @@
 
 This is a dashboard that helps you with sending payments to clients
 
-Preview:
-
 
 # Setup:
 
